@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>최한나 - 포트폴리오</title>
+    <link rel="stylesheet" href="style-lec.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <span class="logo">최한나</span>
+        <ul class="menu">
+          <li><a href="#intro">안녕하세요 최냥이입니다!</a></li>
+          <li><a href="#work">홈프로텍터 겸 슬립프로텍터 </a></li>
+          <li><a href="#contact">floatinginmint@naver.com</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="intro" class="intro-section">
+        <div class="intro-text">
+          <h1>안녕하세요! 최한나(최냥이)입니다</h1>
+          <p class="subtitle"> 최냥이의 공간</p>
+          <p class="lead">잠이 안 오신다면 클릭 한 번씩 부탁드리겠습니다 (꾸벅).</p>
+        </div>
+        <div class="intro-img-wrapper">
+          <img src="me.png" alt="최한나의 프로필 사진">
+        </div>
+      </section>
+
+      <section id="work">
+        <h2>작업물</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>개인 소개 페이지</h3>
+            <p>인스타그램 
+              <a href="instagram:https://www.instagram.com/best.nyang/">https://www.instagram.com/best.nyang/</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>회원가입 폼</h3>
+            <p>회원가입은 추후 오픈
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>최냥이의 창업 도전기</h3>
+            <p>모두의창업 소개페이지
+              <a href="https://www.modoo.or.kr/idea/list?keyword=bestindream">https://www.modoo.or.kr/idea/list?keyword=bestindream</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>연락처</h2>
+        <p class="contact-email">이메일: <a href="mailto:floatinginmint@naver.com">floatinginmint@naver.com</a></p>
+
+        <form action="/contact" method="post">
+          <fieldset>
+            <legend>문의 남기기</legend>
+
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요">
+
+            <label for="message">내용</label>
+            <textarea id="message" name="message" rows="4" placeholder="메시지를 입력해주세요"></textarea>
+
+            <button type="submit">보내기</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p> 2026 최한나. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

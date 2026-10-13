@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-color: #5685e3;
+    color : black;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 24px;
+    width: 800px;
+    margin: auto;
+    /* width: 800px */
+}
+
+h1 {
+    color: #0b6fb8;
+}
+
+img {
+    width: 100%;
+    height : auto;
+    max-width: 50vw;
+}
+
+.nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #fff;
+    border: 1px solid #d3dee6;
+    margin-bottom: 32px;
+}
+
+.logo {
+    font-weight: bold;
+    color: #0b6fb8;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    list-style: none
+}
+     
+.menu{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #074068;
+}
+
+.menu a:hover {
+    color: #0b6fb8;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap : 1rem;
+    margin-top: 16px;
+}
+
+@media (min-width : 390px) {
+    .nav {
+        flex-direction: row;
+    }
+    .cards {grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width : 768px) {
+    .cards {grid-template-columns: 1fr 1fr 1fr;}
+}
+
+
+@media (min-width : 1024px) {
+    body{
+        width: 1200px;
+        margin : auto;
+    }
+    .cards {grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+.card {
+    height : auto;
+    padding: 10px;
+    border: 1px solid #d3dee6;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.card h3 {
+    height : auto;
+    padding: 10px;
+    border: 1px solid #d3dee6;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+section {
+    margin: 0 0 40px 0;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border : 1px solid beige;
+    border-radius: 4px;
+}
+
+form button {
+    display : inline-block;
+    margin: 16px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:#0b6fb8;
+    color: #fff;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #d3dee6;
+    border-radius: 8px;
+    padding: 16px 20px 20px;
+}
+
+legend {
+    padding: 0 8px;
+    color : #0b6fb8;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 18px;
+    color: #4a5876;
+
+
+}
+#contact {
+    border-top: 2px solid #0b6fb8;
+    padding-top: 24px;
+}

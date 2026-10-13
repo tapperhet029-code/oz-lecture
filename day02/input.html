@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Input</title>
+    </head>
+    <body>
+        <h1>Input 실습</h1>
+        <form action="signup" method="post">
+        <label for="userid">아이디</label>
+        <input type="text" id="userid" name=""userid"
+        placeholder="영문과 숫자 4자 이상"/>
+        <button type="submit">가입</button>
+        <div>
+             <h2>type 연습</h2>
+             <input type="email" name="user-email" />
+             <input type="number" name="age" />
+             <input type="date" name="birth" />
+             <inupt type="range" name="slider" />
+             <input type="color" name="user-color" /> 
+        </input>
+         </div>
+         <div>
+           <!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input</title>
+    <!-- 내부스타일 -->
+     <style>
+        input[type="password"] {
+          background-color: #ff0000;
+          color : black 
+        }
+     </style>
+  </head>
+  <body>
+    <h1>Input 실습</h1>
+    <form action="/signup" method="get">
+      <label for="userid">아이디</label>
+      <input
+        type="text"
+        id="userid"
+        name="userid"
+        placeholder="영문과 숫자 4자 이상"
+      />
+      <div>
+        <h2>type 연습</h2>
+        <input type="email" name="user-email" />
+        <input type="number" name="age" />
+        <input type="date" name="birth" />
+        <input type="range" name="slider" />
+        <input type="color" name="user-color" />
+      </div>
+      <div>
+        <h2>여러 선택지 제공</h2>
+        <div>
+          <h3>checkbox - 여러개를 함께 고를 때</h3>
+          <input type="checkbox" id="tos" name="agree" value="tos" />
+          <label for="tos">이용약관에 동의합니다</label>
+          <input type="checkbox" id="mail" name="mail" value="yes" />
+          <label for="mail">메일 수신에 동의합니다</label>
+        </div>
+        <div>
+          <h3>radio - 여럿 중 하나만 고를 때</h3>
+          <p>요금제를 선택하세요</p>
+          <input type="radio" id="free" name="plan" value="free" />
+          <label for="free">무료</label>
+          <input type="radio" id="pro" name="plan" value="pro" />
+          <label for="pro">유료</label>
+        </div>
+        <div>
+          <h3>select - 목록에서 하나를 고를 때</h3>
+          <label for="city">지역</label>
+          <select id="city" name="city">
+            <option value="">선택하세요</option>
+            <option value="seoul">서울</option>
+            <option value="busan">부산</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+      <label for="intro">자기소개</label>
+      <textarea id="intro" name="intro" rows="5" plaeceholder="자유롭게 선택하세요" ></textarea>
+      <button type="submit">가입 </button> 
+    </form>
+  </body>
+</html>
+         </div>
+    <div>
+    <h3>checkbox 여러개 선택</h3>
+    <input type="checkbox" id="hobby-swim" name="hobby" value="swim" />
+    <label for="hobby-swim">수영</label>
+    <input type="checkbox" id="hobby-A" name="hobby" value="A" />
+    <label for="hobby-A">등산</label>
+    <input type="checkbox" id="hobby-B" name="hobby" value="B" />
+    <label for="hobby-B">요가</label>
+    <input type="checkbox" id="hobby-C" name="hobby" value="C" />
+    <label for="hobby-Ç">볼링</label>
+    </div>
+    </form>
+    </body>
+
+</html>
