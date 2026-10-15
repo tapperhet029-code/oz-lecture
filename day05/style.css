@@ -14,7 +14,7 @@ body {
 
 /* 소개 영역 : 사진 왼쪽, 글 오른쪽 */
 .intro {
-  dispslay: flex;
+  display: flex;
   align-items: center;
   gap: 24px;
   margin-bottom: 24px;
